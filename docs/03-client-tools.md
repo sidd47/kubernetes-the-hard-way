@@ -15,14 +15,14 @@ View the generated public key ID at:
 
 ```
 $cat .ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD......8+08b vagrant@master-1
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsz/d1ELiMcUsKKySx72i/yZwUjiUaC8Agj4dgXs33eR5e/hKqKGljk0OMyMdkuMXbP/K1xP6HEPSF8c6UdycTd/0KE1DvYa0A3qqxaCjc5KXgDuCG+jM5gPajFekTcj0mHoMj5nXBHrbW4RP/Cb8+1Kx6ADSiT4RxiMeVT3pFnkytwSAxh5nUqcsz5M6XkGrRoO42gFY9iObeAMsDtnMpNfVPk3aSxjra4f7iHUOo0rhrMFzhPGuDo7WLkyha0sEBIied+ahG++Q2ilv+JKPXzBvU/nhEWyTO/WQb3IPevObJvr11bd9I+uynq7qq6XjMaAPh2c9ywPInuO0fCkPz vagrant@master-1
 ```
 
 Move public key of master to all other VMs
 
 ```
 $cat >> ~/.ssh/authorized_keys <<EOF
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD......8+08b vagrant@master-1
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsz/d1ELiMcUsKKySx72i/yZwUjiUaC8Agj4dgXs33eR5e/hKqKGljk0OMyMdkuMXbP/K1xP6HEPSF8c6UdycTd/0KE1DvYa0A3qqxaCjc5KXgDuCG+jM5gPajFekTcj0mHoMj5nXBHrbW4RP/Cb8+1Kx6ADSiT4RxiMeVT3pFnkytwSAxh5nUqcsz5M6XkGrRoO42gFY9iObeAMsDtnMpNfVPk3aSxjra4f7iHUOo0rhrMFzhPGuDo7WLkyha0sEBIied+ahG++Q2ilv+JKPXzBvU/nhEWyTO/WQb3IPevObJvr11bd9I+uynq7qq6XjMaAPh2c9ywPInuO0fCkPz vagrant@master-1
 EOF
 ```
 
