@@ -345,7 +345,7 @@ apiVersion: kubeproxy.config.k8s.io/v1alpha1
 clientConnection:
   kubeconfig: "/var/lib/kube-proxy/kubeconfig"
 mode: "iptables"
-clusterCIDR: "192.168.5.0/24"
+clusterCIDR: "192.168.56.0/24"
 EOF
 ```
 
