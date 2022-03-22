@@ -78,9 +78,9 @@ Install the worker binaries:
 }
 ```
 ### Move the ca certificate
-
-sudo mv ca.crt /var/lib/kubernetes/`
-
+```
+sudo mv ca.crt /var/lib/kubernetes/
+```
 # Step 1 Create the Boostrap Token to be used by Nodes(Kubelets) to invoke Certificate API
 
 For the workers(kubelet) to access the Certificates API, they need to authenticate to the kubernetes api-server first. For this we create a [Bootstrap Token](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) to be used by the kubelet
