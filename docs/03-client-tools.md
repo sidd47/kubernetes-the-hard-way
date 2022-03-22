@@ -25,7 +25,6 @@ Move public key of master to all other VMs
 ```
 $cat >> ~/.ssh/authorized_keys <<EOF
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDI93sDamsLWPuJt+gbjV62BtdPtvId2jBh9oBNQBW9vzTO4YiO94TOJirN6c+39AD9fkC5pevSZU5k4/2+/xJxLfB5PW8fwkWUIEqxUtJHGpinhNNPDfQFfD3l/yoOv4dH+yItFDBuG1J7lmmhiM78DT/odQ3p0gDdF5b6VLSCucYRlqk1XxKFtCVXWIyLYZyznEt3Ru80Lx34E+oxwM0gm2CH9fhFqDIelGqBe2r3XSAHlYywgmYC5JJsXoblPjqUfGZm8x/3Sfp8LjRHYn9E0E9pDCgcE+A7OrYV9s+EyIlhjJb4msLinCyy5lveNQGxxe41loZGUFBU9FWke3BB vagrant@master-1
-
 EOF
 ```
 
