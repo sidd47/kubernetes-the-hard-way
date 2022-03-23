@@ -42,6 +42,9 @@ So let's get started!
 > Note: We have already configured these in our setup in this course
 
 Copy the ca certificate to the worker node:
+```
+scp ca.crt ca.key worker-2
+```
 
 
 ## Step 1 Configure the Binaries on the Worker node
