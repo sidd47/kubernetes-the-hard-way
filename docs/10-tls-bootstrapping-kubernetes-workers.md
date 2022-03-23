@@ -43,7 +43,7 @@ So let's get started!
 
 Copy the ca certificate to the worker node:
 ```
-scp ca.crt ca.key worker-2
+scp ca.crt ca.key worker-2:~/
 ```
 
 
