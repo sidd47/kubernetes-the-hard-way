@@ -42,7 +42,11 @@ done
 
 Move `encryption-config.yaml` encryption config file to appropriate directory.
 
+First create /var/lib/kubernetes/ on all masters
+
 ```
+sudo mkdir /var/lib/kubernetes/
+
 for instance in master-1 master-2; do
   ssh ${instance} sudo mv encryption-config.yaml /var/lib/kubernetes/
 done
